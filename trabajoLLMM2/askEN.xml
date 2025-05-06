@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE test SYSTEM "ask.dtd">
+<test>
+  <question id="1">
+    <wording>What is the largest mammal in the world?</wording>
+    <choices>
+      <choice correct="no">African elephant</choice>
+      <choice correct="no">Gray whale</choice>
+      <choice correct="yes">Blue whale</choice>
+      <choice correct="no">White rhinoceros</choice>
+    </choices>
+  </question>
+  <question id="2">
+    <wording>Which animal is known for changing its color?</wording>
+    <choices>
+      <choice correct="no">Zebra</choice>
+      <choice correct="yes">Chameleon</choice>
+      <choice correct="no">Penguin</choice>
+      <choice correct="no">Dolphin</choice>
+    </choices>
+  </question>
+  <question id="3">
+    <wording>What type of animal is an eagle?</wording>
+    <choices>
+      <choice correct="no">Mammal</choice>
+      <choice correct="yes">Bird</choice>
+      <choice correct="no">Reptile</choice>
+      <choice correct="no">Amphibian</choice>
+    </choices>
+  </question>
+  <question id="4">
+    <wording>How many legs does a spider have?</wording>
+    <choices>
+      <choice correct="no">6</choice>
+      <choice correct="yes">8</choice>
+      <choice correct="no">10</choice>
+      <choice correct="no">12</choice>
+    </choices>
+  </question>
+  <question id="5">
+    <wording>Which bird is known for mimicking human sounds?</wording>
+    <choices>
+      <choice correct="no">Crow</choice>
+      <choice correct="yes">Parrot</choice>
+      <choice correct="no">Seagull</choice>
+      <choice correct="no">Flamingo</choice>
+    </choices>
+  </question>
+  <question id="6">
+    <wording>Which fish is famous for its ability to puff up?</wording>
+    <choices>
+      <choice correct="no">Shark</choice>
+      <choice correct="no">Salmon</choice>
+      <choice correct="yes">Pufferfish</choice>
+      <choice correct="no">Seahorse</choice>
+    </choices>
+  </question>
+  <question id="7">
+    <wording>Which animal has a tongue longer than its body?</wording>
+    <choices>
+      <choice correct="no">Koala</choice>
+      <choice correct="no">Elephant</choice>
+      <choice correct="no">Clownfish</choice>
+      <choice correct="yes">Chameleon</choice>
+    </choices>
+  </question>
+  <question id="8">
+    <wording>Which animal is known for being slow?</wording>
+    <choices>
+      <choice correct="no">Lion</choice>
+      <choice correct="no">Giraffe</choice>
+      <choice correct="yes">Sloth</choice>
+      <choice correct="no">Monkey</choice>
+    </choices>
+  </question>
+  <question id="9">
+    <wording>Where do penguins usually live?</wording>
+    <choices>
+      <choice correct="no">Africa</choice>
+      <choice correct="yes">Antarctica</choice>
+      <choice correct="no">Asia</choice>
+      <choice correct="no">Europe</choice>
+    </choices>
+  </question>
+  <question id="10">
+    <wording>Which of the following animals is a marsupial?</wording>
+    <choices>
+      <choice correct="no">Leopard</choice>
+      <choice correct="yes">Kangaroo</choice>
+      <choice correct="no">Polar bear</choice>
+      <choice correct="no">Goat</choice>
+    </choices>
+  </question>
+  <question id="11">
+    <wording>Which animal has excellent memory and is said to never forget?</wording>
+    <choices>
+      <choice correct="no">Dog</choice>
+      <choice correct="yes">Elephant</choice>
+      <choice correct="no">Turtle</choice>
+      <choice correct="no">Horse</choice>
+    </choices>
+  </question>
+  <question id="12">
+    <wording>What is the fastest land animal in the world?</wording>
+    <choices>
+      <choice correct="yes">Cheetah</choice>
+      <choice correct="no">Lion</choice>
+      <choice correct="no">Antelope</choice>
+      <choice correct="no">Wolf</choice>
+    </choices>
+  </question>
+  <question id="13">
+    <wording>Which insect produces honey?</wording>
+    <choices>
+      <choice correct="no">Butterfly</choice>
+      <choice correct="yes">Bee</choice>
+      <choice correct="no">Fly</choice>
+      <choice correct="no">Wasp</choice>
+    </choices>
+  </question>
+  <question id="14">
+    <wording>Which of the following is an amphibian?</wording>
+    <choices>
+      <choice correct="no">Snake</choice>
+      <choice correct="no">Turtle</choice>
+      <choice correct="yes">Frog</choice>
+      <choice correct="no">Parrot</choice>
+    </choices>
+  </question>
+  <question id="15">
+    <wording>Which sea animal has eight arms?</wording>
+    <choices>
+      <choice correct="no">Crab</choice>
+      <choice correct="yes">Octopus</choice>
+      <choice correct="no">Lobster</choice>
+      <choice correct="no">Seahorse</choice>
+    </choices>
+  </question>
+  <question id="16">
+    <wording>Which of these animals can fly?</wording>
+    <choices>
+      <choice correct="no">Hen</choice>
+      <choice correct="yes">Bat</choice>
+      <choice correct="no">Ostrich</choice>
+      <choice correct="no">Penguin</choice>
+    </choices>
+  </question>
+  <question id="17">
+    <wording>Which animal lays eggs and also nurses its young?</wording>
+    <choices>
+      <choice correct="yes">Platypus</choice>
+      <choice correct="no">Dolphin</choice>
+      <choice correct="no">Otter</choice>
+      <choice correct="no">Fox</choice>
+    </choices>
+  </question>
+  <question id="18">
+    <wording>Which animal has a very long neck?</wording>
+    <choices>
+      <choice correct="no">Leopard</choice>
+      <choice correct="no">Bear</choice>
+      <choice correct="yes">Giraffe</choice>
+      <choice correct="no">Zebra</choice>
+    </choices>
+  </question>
+  <question id="19">
+    <wording>Which animal is known for building dams in rivers?</wording>
+    <choices>
+      <choice correct="no">Sea otter</choice>
+      <choice correct="yes">Beaver</choice>
+      <choice correct="no">Otter</choice>
+      <choice correct="no">Deer</choice>
+    </choices>
+  </question>
+  <question id="20">
+    <wording>Which animal is considered the king of the jungle?</wording>
+    <choices>
+      <choice correct="yes">Lion</choice>
+      <choice correct="no">Tiger</choice>
+      <choice correct="no">Jaguar</choice>
+      <choice correct="no">Panther</choice>
+    </choices>
+  </question>
+</test>

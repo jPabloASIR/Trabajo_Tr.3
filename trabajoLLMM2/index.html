@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Trabajo XML</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="screen active" id="start-screen">
+    <h1 id="title-text">Concurso de Preguntas</h1>
+    <select id="language" onchange="updateLanguage()">
+      <option value="es">Español</option>
+      <option value="en">English</option>
+    </select>
+    <button onclick="startQuiz()" id="start-button">Comenzar</button>
+  </div>
+
+  <div class="screen" id="quiz-screen">
+    <div class="header">
+      <span id="timer">Tiempo: 0s</span>
+      <span id="score">Puntuación: 0</span>
+    </div>
+    <div id="question-container"></div>
+    <button id="next-btn" onclick="nextQuestion()">Siguiente</button>
+    <button id="confirm-btn" onclick="confirmAnswer()">Confirmar</button>
+  </div>
+
+  <div class="screen" id="end-screen">
+    <h2 id="end-title">¡Has completado el test!</h2>
+    <p id="final-score"></p>
+    <button onclick="location.reload()" id="restart-button">Reiniciar</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
