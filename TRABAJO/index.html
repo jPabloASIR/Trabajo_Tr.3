@@ -6,13 +6,13 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="screen active" id="start-screen">
+  <div class="screen active" id="start-screen"> <!-- Inicio -->
     <h1 id="title-text">Concurso de Preguntas</h1>
-    <select id="language" onchange="updateLanguage()">
+    <select id="language" onchange="updateLanguage()"> <!-- Idiomas. Al cambiar, llama a la función updateLanguage() -->
       <option value="es">Español</option>
       <option value="en">English</option>
     </select>
-    <button onclick="startQuiz()" id="start-button">Comenzar</button>
+    <button onclick="startQuiz()" id="start-button">Comenzar</button> <!-- Comienza el concurso, ejecuta la función startQuiz() -->
   </div>
 
   <div class="screen" id="quiz-screen">
@@ -21,8 +21,8 @@
       <span id="score">Puntuación: 0</span>
     </div>
     <div id="question-container"></div>
-    <button id="next-btn" onclick="nextQuestion()">Siguiente</button>
-    <button id="confirm-btn" onclick="confirmAnswer()">Confirmar</button>
+    <button id="next-btn" onclick="nextQuestion()">Siguiente</button> <!-- Siguiente pregunta, ejecuta la función nextQuestion() -->
+    <button id="confirm-btn" onclick="confirmAnswer()">Confirmar</button> <!-- Confirmar respuesta, ejecuta la función confirmAnswer() -->
   </div>
 
   <div class="screen" id="end-screen">
