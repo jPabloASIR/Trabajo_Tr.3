@@ -84,6 +84,7 @@ function showQuestion() {
     const div = document.createElement('div');
     div.className = 'choice';
     div.textContent = choice.textContent;
+    div.setAttribute('data-correct', choice.getAttribute('correct'));
     div.onclick = () => selectAnswer(div, choice.getAttribute('correct') === 'yes');
     container.appendChild(div);
   });
@@ -106,15 +107,28 @@ function confirmAnswer() {
   answered = true;
   document.getElementById('confirm-btn').style.display = 'none';
 
+  const allChoices = document.querySelectorAll('.choice');
+  allChoices.forEach(c => {
+    const isCorrect = c.textContent === selectedChoice.div.textContent
+      ? selectedChoice.correct
+      : c.getAttribute('data-correct') === 'yes';
+
+    if (isCorrect) {
+      c.classList.add('correct');
+    } else if (c.classList.contains('selected')) {
+      c.classList.add('incorrect');
+    }
+
+    // Desactivar clics
+    c.onclick = null;
+  });
+
   if (selectedChoice.correct) score++;
 
   const label = selectedLanguage === 'es' ? 'Puntuación' : 'Score';
   document.getElementById('score').textContent = `${label}: ${score}`;
-
-  
-  const allChoices = document.querySelectorAll('.choice');
-  allChoices.forEach(c => c.onclick = null);
 }
+
 
 function nextQuestion() {
   currentQuestion++;
