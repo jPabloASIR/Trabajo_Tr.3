@@ -93,3 +93,13 @@ select {
 #confirm-btn {
   display: none;
 }
+
+.choice.correct {
+  background-color: #4CAF50; 
+  color: white;
+}
+
+.choice.incorrect {
+  background-color: #F44336;
+  color: white;
+}
